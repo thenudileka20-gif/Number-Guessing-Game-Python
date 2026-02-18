@@ -19,7 +19,7 @@ def play_game(num_range,max_attempts):
     attempts=1
     
     while attempts < max_attempts:
-        attempts += 1
+    
         if guess>random_num:
             print("Too High")
             guess = int(input("Enter your guess: "))
@@ -27,12 +27,14 @@ def play_game(num_range,max_attempts):
         elif guess<random_num:
             print("Too Low")
             guess = int(input("Enter your guess: "))
+            
+        attempts += 1
         
-    if guess == random_num:
-        print("Correct!")
-        print("Attempts tried:" , attempts)
-        score = (max_attempts - attempts + 1) * 10
-        return score
+        if guess == random_num:
+            print("Correct!")
+            print("Attempts tried:" , attempts)
+            score = (max_attempts - attempts + 1) * 10
+            return score
     
     print("Attempts are over")
     print("Correct number is: ", random_num)
@@ -62,11 +64,11 @@ def main():
         max_attempts = 10
              
     elif level=="2":
-        num_range = 100
-        max_attempts = 7
+        num_range = 500
+        max_attempts = 8
               
     elif level=="3":
-        num_range = 200
+        num_range = 100
         max_attempts = 5
         
     else:
@@ -88,4 +90,5 @@ if __name__ == "__main__":
     main()
 
         
+
 
