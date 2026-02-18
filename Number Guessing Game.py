@@ -16,7 +16,7 @@ def save_high_score(score):
 def play_game(num_range,max_attempts):
     random_num = random.randint(1,num_range)
     guess = int(input("Enter your guess: "))
-    attempts=1
+    attempts=0
     
     while attempts < max_attempts:
     
@@ -90,5 +90,6 @@ if __name__ == "__main__":
     main()
 
         
+
 
 
