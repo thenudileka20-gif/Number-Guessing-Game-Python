@@ -64,7 +64,7 @@ def main():
         max_attempts = 10
              
     elif level=="2":
-        num_range = 500
+        num_range = 50
         max_attempts = 8
               
     elif level=="3":
@@ -90,6 +90,7 @@ if __name__ == "__main__":
     main()
 
         
+
 
 
 
