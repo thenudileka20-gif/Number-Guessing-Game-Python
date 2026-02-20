@@ -2,21 +2,19 @@ import random
 
 def high_score():
     try:
-
         with open("highestscore.txt", "r") as file:
                 return int(file.read())
     except:
         return 0
 
 def save_high_score(score):
-    file = open ("highestscore.txt","w")
-    file.write(str(score))
-    file.close()
+    with open("highestscore.txt", "w") as file:
+        file.write(str(score))
     
 def play_game(num_range,max_attempts):
     random_num = random.randint(1,num_range)
     guess = int(input("Enter your guess: "))
-    attempts=0
+    attempts=1
     
     while attempts < max_attempts:
     
@@ -90,7 +88,5 @@ if __name__ == "__main__":
     main()
 
         
-
-
 
 
