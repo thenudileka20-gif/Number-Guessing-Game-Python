@@ -3,9 +3,8 @@ Number Guessing Game (Python)
 This is a simple command line number guessing game developed using Python.
 
 Features
-Random number generation
-
-Three difficulty levels (Easy, Medium, Hard)
+- Random number generation
+- Three difficulty levels (Easy, Medium, Hard)
 
 Limited attempts based on difficulty
 
@@ -22,7 +21,7 @@ How to Run
 
 What I Learned
 - Working with functions
--Loops and conditionals
--File handling (reading/writing files)
--Error handling
--Basic game logic design
+- Loops and conditionals
+- File handling (reading/writing files)
+- Error handling
+- Basic game logic design
