@@ -1,19 +1,23 @@
 Number Guessing Game (Python)
 
-This is a simple  number guessing game developed using Python.
+This is a simple command line number guessing game developed using Python.
 
 Features
-- Random number generation
-- Multiple attempts
-- Input validation
-- Difficulty levels
+-Random number generation
+-Three difficulty levels (Easy, Medium, Hard)
+-Limited attempts based on difficulty
+-Score calculation system
+-Persistent high score stored in a file
+-Replay option
 
 How to Run
-1. Download the file
-2. Run using Python:
-   python game.py
+1.Make sure Python is installed.
+2.Download the project files.
+3.Then run the python file.
 
 What I Learned
-- Loops and conditionals
-- Functions
-- Problem-solving logic
+- Working with functions
+-Loops and conditionals
+-File handling (reading/writing files)
+-Error handling
+-Basic game logic design
